@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- displays site properly based on user's device -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- Icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Title -->
+  <title>Frontend Mentor | Order summary card</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Red Hat Display', sans-serif;
+    }
+  </style>
+  <!-- TailwindsCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[url('images/pattern-background-mobile.svg')] sm:bg-[url('images/pattern-background-desktop.svg')] text-black h-screen w-screen m-0 p-0 flex flex-col justify-center items-center text-center">
+  <!-- Main Element -->
+  <main class="bg-white max-w-[70%] sm:w-[400px] h-[82%] sm:h-[580px] mt-10 rounded-3xl shadow-2xl">
+    <!-- Illustration -->
+    <img class="rounded-t-3xl" src="images/illustration-hero.svg" alt="illustration-hero">
+    <!-- Heading and Paragraph -->
+    <h1 class="font-extrabold text-2xl mt-5">Order Summary</h1>
+    <p class="text-[#7280a7] font-medium mt-5 sm:text-sm sm:w-72 sm:ml-14">
+      You can now listen to millions of songs, audiobooks, and podcasts on any
+      device anywhere you like!
+    </p>
+    <!-- Music Icon -->
+    <img class="pl-10 sm:pl-16 mt-10" src="images/icon-music.svg" alt="icon-music">
+    <!-- Heading and Paragraph -->
+    <h2 class="font-extrabold -mt-[45px] mr-10">Annual Plan</h2>
+    <!-- Link -->
+    <a href="#" class="text-[#0f39b8] hover:text-[#7280a7] transition-all active:opacity-[0.6] font-bold text-sm underline ml-56">Change</a>
+    <p class="text-[#7280a7] font-medium mr-10 -mt-6">$59.99/year</p>
+    <!-- Buttons -->
+    <button class="bg-[#3829e0] text-white font-bold mt-10 m-3 w-[80%] p-3 rounded-lg shadow-2xl hover:bg-[#7280a7] transition-all active:opacity-[0.6]">Proceed to Payment</button>
+    <button class="text-[#7280a7] hover:text-black transition-all active:opacity-[0.6] font-bold mt-2">Cancel Order</button>
+  </main>
+
+</body>
+</html>
