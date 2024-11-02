@@ -7,8 +7,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 
 
-- Solution URL: [Frontend Mentor]()
-- Live Site URL: [GitHub]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/order-summary-component-main-MLks8mdqiO)
+- Live Site URL: [GitHub](https://kalebemax.github.io/order-summary-component-main/)
 
 
 
